@@ -1,0 +1,35 @@
+body {
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.nav {
+    width: 100vw;
+    height:20vh;
+    background-color: black;
+}
+.contentWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
+}
+.side{
+    width: 15vw;
+    height: 100%;
+    background-color: gray;
+}
+.middle{
+    width: 70vw;
+    height: 100%;
+    background-color: white;
+}
+.body{
+    height: 90%;
+}
+.footer{
+    height: 10%;
+    background-color: darkgrey;
+}
+
+
